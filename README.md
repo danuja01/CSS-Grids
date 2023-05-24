@@ -1,6 +1,6 @@
 # CSS Grid Tutorial Repository
 
-This repository serves as a learning resource for CSS Grid layouts. It includes various examples and exercises to help you understand and practice CSS Grid concepts. The content of this repository is based on the CSS Grids tutorial by [Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY).
+This repository serves as a learning resource for CSS Grid layouts. It includes various examples and exercises to help you understand and practice CSS Grid concepts. The content of this repository is based on the CSS Grids tutorial by [Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hk02lFb6EkdXF2DYGl4Gg4).
 
 ## Table of Contents
 
@@ -44,7 +44,7 @@ Feel free to explore each example folder and dive into the code to understand ho
 
 ## Resources
 
-- [Net Ninja CSS Grids Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY) - The original tutorial by Net Ninja on YouTube.
+- [Net Ninja CSS Grids Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hk02lFb6EkdXF2DYGl4Gg4) - The original tutorial by Net Ninja on YouTube.
 
 ## Contributing
 
