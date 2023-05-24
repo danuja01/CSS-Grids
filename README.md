@@ -10,8 +10,6 @@ This repository serves as a learning resource for CSS Grid layouts. It includes 
   - [Getting Started](#getting-started)
   - [Examples](#examples)
   - [Resources](#resources)
-  - [Contributing](#contributing)
-  - [License](#license)
 
 ## Introduction
 
@@ -45,13 +43,3 @@ Feel free to explore each example folder and dive into the code to understand ho
 ## Resources
 
 - [Net Ninja CSS Grids Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hk02lFb6EkdXF2DYGl4Gg4) - The original tutorial by Net Ninja on YouTube.
-
-## Contributing
-
-Contributions to this repository are welcome! If you have any improvements, bug fixes, or additional examples related to CSS Grid layouts, feel free to open a pull request. Please make sure to follow the existing code style and include clear commit messages.
-
-If you find any issues or have suggestions for improving this tutorial, please open an issue in the repository's issue tracker.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code as permitted by the license.
