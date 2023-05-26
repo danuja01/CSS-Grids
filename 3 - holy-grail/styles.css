@@ -8,3 +8,130 @@ ul, li {
   padding: 0;
   list-style-type: none;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  column-gap: 30px;  /* Only applying for columns */
+}
+
+header {
+  grid-column: span 3;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+footer {
+  grid-column: span 3 ; 
+}
+
+nav {
+  padding: 30px;
+  border-right: 1px solid #ddd;
+}
+
+nav > p {
+  font-weight:600;
+}
+
+nav li {
+  text-decoration: underline;
+}
+
+article {
+  padding: 30px;
+}
+
+article h2 {
+  font-size: 3.5em;
+  max-width: 800px;
+}
+
+article img {
+  width: 100%;
+}
+
+article p {
+  margin-top: 30px;
+  line-height: 2em;
+  color: #777;
+}
+
+aside {
+  padding: 30px;
+  border-left: 1px solid #ddd;
+}
+
+footer {
+  grid-column: span 3;
+  text-align: center;
+  border-top: 1px solid #ddd ;
+  padding: 30px;
+}
+
+@media screen and (max-width : 1200px) {
+  nav {
+    grid-column: span 3;
+    border-right: 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  nav > p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  article {
+    grid-column: span 2;
+  }
+
+  aside {
+    padding: 16px;
+  }
+}
+
+@media  screen and (max-width : 980px) {
+  nav, article, aside {
+    grid-column: span 3;
+  }
+
+  article h2 {
+    font-size: 2.5em
+  }
+
+  aside {
+    border-left: 0;
+    border-top: 1px solid #ddd;
+  }
+
+  aside p  {
+    display:inline-block
+  }
+
+  aside p > strong {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  nav {
+    padding: 16px
+  }
+
+  nav li {
+    font-size: 12px;
+  }
+
+  article h2 {
+    font-size: 1.8em;
+  }
+
+  aside p, footer p  {
+    font-size: 15px;
+  }
+}
